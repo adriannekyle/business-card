@@ -1,0 +1,46 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+  font-family: sans-serif;
+  background-color: #ffe4e1;
+}
+
+.business-card {
+  width: 400px;
+  background-color: lightblue;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+}
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover; 
+  margin: 20px; 
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-content h1 {
+  margin-top: 0; 
+  font-size: 1em;
+}
+
+.title {
+  color: #666;
+  margin-bottom: 1px;
+}
+
+.contact {
+  margin-bottom: 1px;
+}
